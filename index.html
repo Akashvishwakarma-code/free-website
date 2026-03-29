@@ -8,14 +8,24 @@
     />
     <meta
       name="description"
-      content="Get a high-converting, SEO-optimized website or landing page for your business in just 2 days. Includes free lifetime hosting, 1 year free domain, 2 revisions, and expert redesign."
+      content="Get a high-converting, SEO-optimized website or landing page for your business in just 3 days
+. Includes free lifetime hosting, 1 year free domain, 2 revisions, and expert redesign."
     />
     <meta
       name="keywords"
-      content="website design, SEO optimization, landing page, freelancing business, free hosting, domain name, redesign website"
+      content="website design, SEO optimization, landing page, freelancing business, free hosting, domain name, redesign website, small business website"
     />
     <meta name="author" content="WebifyPro" />
     <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="WebifyPro | SEO Websites + Free Hosting | 2-Day Delivery"
+    />
+    <meta
+      property="og:description"
+      content="Launch your business website in 48 hours. Free lifetime hosting + 1 year domain + 2 revisions included."
+    />
+    <meta property="og:type" content="website" />
     <title>WebifyPro | SEO Websites + Free Hosting | 2-Day Delivery</title>
     <!-- Google Fonts + Font Awesome -->
     <link
@@ -32,6 +42,10 @@
         padding: 0;
         box-sizing: border-box;
       }
+      .hero-section {
+        width: 100%;
+        padding: 80px 0;
+      }
 
       body {
         font-family: "Inter", sans-serif;
@@ -44,7 +58,8 @@
       .container {
         max-width: 1280px;
         margin: 0 auto;
-        padding: 0 32px;
+        padding: 0 15px;
+        margin-bottom: 2rem;
       }
 
       /* buttons & utility */
@@ -92,7 +107,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 28px 0;
+        padding: 10px 0;
         flex-wrap: wrap;
       }
 
@@ -123,9 +138,11 @@
         color: #0f172a;
       }
 
-      /* Hero Section - Enhanced with animations and better margins */
+      /* Hero Section - Fixed with proper margins */
       .hero {
-        padding: 40px 0 80px;
+        margin: 0px 20px 100px 0;
+        padding: 0px 20px;
+
         position: relative;
         overflow: hidden;
       }
@@ -153,12 +170,12 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        margin-bottom: 28px;
+        margin-bottom: 20px;
         animation: pulseGlow 2s infinite;
       }
 
       .hero-content h1 {
-        font-size: 3.8rem;
+        font-size: 2.8rem;
         font-weight: 800;
         line-height: 1.2;
         letter-spacing: -0.02em;
@@ -187,8 +204,8 @@
 
       .hero-stats {
         display: flex;
-        gap: 40px;
-        margin: 36px 0 32px;
+        gap: 20px;
+        margin-bottom: 32px;
         flex-wrap: wrap;
       }
 
@@ -261,9 +278,9 @@
 
       .trust-badge {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 24px;
-        margin-top: 24px;
+        margin-top: 32px;
         font-size: 0.85rem;
         color: #5b6e8c;
         flex-wrap: wrap;
@@ -550,12 +567,13 @@
         text-align: center;
       }
 
+      /* Responsive */
       @media (max-width: 780px) {
         .container {
-          padding: 0 24px;
+          padding: 0 10px;
         }
         .hero-content h1 {
-          font-size: 2.5rem;
+          font-size: 2rem;
         }
         .navbar {
           flex-direction: column;
@@ -570,7 +588,20 @@
           padding: 24px;
         }
         .hero {
-          padding: 20px 0 60px;
+          margin: 50px 0 80px 0;
+        }
+        .trust-badge {
+          justify-content: center;
+        }
+        .section-title {
+          font-size: 1.8rem;
+        }
+      }
+      @media (max-width: 780px) {
+        .hero {
+          margin-top: 40px;
+          margin-bottom: 60px;
+          padding: 0px 20px;
         }
       }
     </style>
@@ -588,78 +619,81 @@
     </nav>
 
     <main>
-      <!-- HERO SECTION - Enhanced with better margins, animations, and SEO optimized content -->
-      <section class="hero container">
-        <div class="hero-grid">
-          <div class="hero-content">
-            <div class="hero-badge">
-              <i class="fas fa-charging-station"></i> Launch in 2 Days • Free
+      <!-- HERO SECTION - Fixed margins, animations, SEO optimized -->
+      <section class="hero section">
+        <div class="hero container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <!-- <div class="hero-badge">
+              <i class="fas fa-charging-station"></i> Launch in 3 days • Free
               Lifetime Hosting
-            </div>
-            <h1>
-              High-Converting
-              <span class="hero-highlight">Website + SEO</span> That Drives Real
-              Business Growth
-            </h1>
-            <p class="hero-desc">
-              We build, redesign & optimize high-performance websites that rank
-              #1 on Google. Get a fully responsive, lightning-fast site with
-              <strong
-                >2 revisions, 1 year free domain & unlimited lifetime
-                hosting</strong
-              >
-              — zero recurring fees.
-            </p>
-            <div class="hero-stats">
-              <div class="stat-item">
-                <h3>48h</h3>
-                <p>Delivery Time</p>
+            </div> -->
+              <h1>
+                High-Converting
+                <span class="hero-highlight">Website + SEO</span> That Drives
+                Real Business Growth
+              </h1>
+              <p class="hero-desc">
+                We build, redesign & optimize high-performance websites that
+                rank #1 on Google. Get a fully responsive, lightning-fast site
+                with
+                <strong
+                  >2 revisions, 1 year free domain & unlimited lifetime
+                  hosting</strong
+                >
+                — zero recurring fees.
+              </p>
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <h3>48h</h3>
+                  <p>Delivery Time</p>
+                </div>
+                <div class="stat-item">
+                  <h3>2</h3>
+                  <p>Revisions</p>
+                </div>
+                <div class="stat-item">
+                  <h3>∞</h3>
+                  <p>Hosting</p>
+                </div>
               </div>
-              <div class="stat-item">
-                <h3>2</h3>
-                <p>Free Revisions</p>
+              <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary"
+                  ><i class="fas fa-rocket"></i> Claim Your Package →</a
+                >
+                <a href="#offer" class="btn btn-outline"
+                  ><i class="fas fa-chart-line"></i> See What's Included</a
+                >
               </div>
-              <div class="stat-item">
-                <h3>∞</h3>
-                <p>Free Hosting</p>
+              <div class="trust-badge">
+                <span
+                  ><i class="fas fa-check-circle" style="color: #10b981"></i>
+                  150+ businesses launched</span
+                >
+                <span
+                  ><i class="fas fa-star" style="color: #facc15"></i> 5-star
+                  Google rating</span
+                >
+                <span><i class="fas fa-shield-alt"></i> 30-day support</span>
               </div>
             </div>
-            <div class="hero-buttons">
-              <a href="#contact" class="btn btn-primary"
-                ><i class="fas fa-rocket"></i> Claim Your Package →</a
+            <div class="hero-visual">
+              <div class="visual-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>SEO Optimized & Mobile-First</h3>
+              <p>Rank higher • Convert faster • Grow smarter</p>
+              <div
+                style="
+                  margin-top: 24px;
+                  background: #e2e8f0;
+                  border-radius: 100px;
+                  padding: 8px 16px;
+                  display: inline-block;
+                "
               >
-              <a href="#offer" class="btn btn-outline"
-                ><i class="fas fa-chart-line"></i> See What's Included</a
-              >
-            </div>
-            <div class="trust-badge">
-              <span
-                ><i class="fas fa-check-circle" style="color: #10b981"></i> 150+
-                businesses launched</span
-              >
-              <span
-                ><i class="fas fa-star" style="color: #facc15"></i> 5-star
-                Google rating</span
-              >
-              <span><i class="fas fa-shield-alt"></i> 30-day support</span>
-            </div>
-          </div>
-          <div class="hero-visual">
-            <div class="visual-icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <h3>SEO Optimized & Mobile-First</h3>
-            <p>Rank higher • Convert faster • Grow smarter</p>
-            <div
-              style="
-                margin-top: 24px;
-                background: #e2e8f0;
-                border-radius: 100px;
-                padding: 8px 16px;
-                display: inline-block;
-              "
-            >
-              <i class="fas fa-tachometer-alt"></i> PageSpeed optimized
+                <i class="fas fa-tachometer-alt"></i> PageSpeed optimized
+              </div>
             </div>
           </div>
         </div>
@@ -712,7 +746,7 @@
             </div>
             <div class="feature-card">
               <div class="feature-icon"><i class="fas fa-clock"></i></div>
-              <h3>Ready in 2 Days</h3>
+              <h3>Ready in 3 days</h3>
               <p>
                 Fast turnaround without compromising quality. Perfect for
                 businesses that need results now.
@@ -735,8 +769,8 @@
         <div class="container">
           <div class="pricing-card">
             <div class="pricing-header">
-              <h2>🚀 The Growth Accelerator</h2>
-              <div class="price">$997 <span>or 2-month payment plan</span></div>
+              <h2>🚀 Our plan</h2>
+              <div class="price">$55 <span>or ₹5216/-</span></div>
               <p>Everything included — zero surprises, 100% transparent</p>
             </div>
             <div class="pricing-details">
@@ -759,21 +793,21 @@
                 </li>
                 <li>
                   <i class="fas fa-check-circle"></i>
-                  <strong>Free lifetime hosting</strong> (unlimited bandwidth,
-                  SSL, CDN)
+                  <strong>Free lifetime hosting</strong> (unlimited Static Web
+                  Pages Hosting)
                 </li>
                 <li>
                   <i class="fas fa-check-circle"></i>
-                  <strong>1 year free domain</strong> registration
-                  (.com/.org/.net)
+                  <strong>1 year free domain</strong> registration (Domain under
+                  $5)
                 </li>
                 <li>
-                  <i class="fas fa-check-circle"></i> Delivery within 2 business
+                  <i class="fas fa-check-circle"></i> Delivery within 3 business
                   days after content handoff
                 </li>
                 <li>
-                  <i class="fas fa-check-circle"></i> 30-day post-launch support
-                  & bug fixes
+                  <i class="fas fa-check-circle"></i> 30-days post-launch
+                  support & bug fixes
                 </li>
               </ul>
               <div class="cta-center">
@@ -838,9 +872,14 @@
               <h3 style="margin-bottom: 24px; font-size: 1.6rem">
                 🚀 Get Your Free Quote
               </h3>
-              <form id="leadForm" action="#" method="POST">
+              <form
+                id="leadForm"
+                action="https://formsubmit.co/webifypro20@gmail.com"
+                method="POST"
+              >
                 <div class="form-group">
                   <input
+                    name="name"
                     type="text"
                     placeholder="Full name *"
                     id="name"
@@ -849,6 +888,7 @@
                 </div>
                 <div class="form-group">
                   <input
+                    name="email"
                     type="email"
                     placeholder="Email address *"
                     id="email"
@@ -856,10 +896,15 @@
                   />
                 </div>
                 <div class="form-group">
-                  <input type="tel" placeholder="Phone (optional)" id="phone" />
+                  <input
+                    type="tel"
+                    name="tel"
+                    placeholder="Phone (optional)"
+                    id="phone"
+                  />
                 </div>
                 <div class="form-group">
-                  <select id="service">
+                  <select id="service" name="service">
                     <option value="new_website">New website + SEO</option>
                     <option value="redesign">Redesign existing site</option>
                     <option value="both">I need both + full package</option>
@@ -867,12 +912,13 @@
                 </div>
                 <div class="form-group">
                   <textarea
+                    name="message"
                     rows="3"
                     placeholder="Tell us about your business or website goals..."
                     id="message"
                   ></textarea>
                 </div>
-                <button type="submit" id="submitBtn">
+                <button type="submit" id="submitBtn" name="submit">
                   <i class="fas fa-paper-plane"></i> Secure my 2-day launch &
                   free hosting →
                 </button>
